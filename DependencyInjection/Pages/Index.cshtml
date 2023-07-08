@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @ViewData["SingletonDepMsg"]<br/>
+    @ViewData["SingletonDep2Msg"]<br />
+    @ViewData["ScopedDepMsg"]<br/>
+    @ViewData["TransientDep1Msg"]<br/>
+    @ViewData["TransientDep2Msg"]<br/>
+    @ViewData["MsgFromServiceCreatedFromScope"]
+
+    <br/>
+    <br/>
+    <p>
+        Sington dependencies are created once for the whole lifetime of application, 
+        so value stays the same for all requests.
+        <br/>
+        Scoped dependencies are created for each request and last for that requests lifetime,
+        So value changes every requests.
+        <br/>
+        Transient deps are created every time they are needed.
+    </p>
+</div>
