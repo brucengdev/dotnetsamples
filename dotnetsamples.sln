@@ -43,6 +43,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor", "Razor", "{157A9B01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponseAndRequestOperations", "Middlewares\ResponseAndRequestOperations\ResponseAndRequestOperations.csproj", "{D614DBBC-663D-45D2-8EC2-036917FC6EE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestDecompression", "Middlewares\RequestDecompression\RequestDecompression.csproj", "{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{D614DBBC-663D-45D2-8EC2-036917FC6EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D614DBBC-663D-45D2-8EC2-036917FC6EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D614DBBC-663D-45D2-8EC2-036917FC6EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{C08F9317-6E96-410F-8A22-53A5C4D9AB92} = {DD220EE5-A528-441A-9B54-B2AE4CC3D2E8}
 		{B1597711-5AA2-4D27-BA97-7F73A6994DAC} = {DE06F29A-3B33-4525-8D2F-C0E25A934EAB}
 		{D614DBBC-663D-45D2-8EC2-036917FC6EE6} = {6675F4FE-C4DA-4E9A-B751-CDDBFD13A1BD}
+		{5DCF1388-1FD4-4D0A-9668-5B464111CCFA} = {6675F4FE-C4DA-4E9A-B751-CDDBFD13A1BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
