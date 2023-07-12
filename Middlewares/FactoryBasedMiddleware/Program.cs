@@ -12,5 +12,6 @@ app.MapGet("/", () => "Hello World!");
 
 //Then use that middleware
 app.UseFactoryActivatedMiddleware();
+//app.UseConventionalMiddleware();
 
 app.Run();
