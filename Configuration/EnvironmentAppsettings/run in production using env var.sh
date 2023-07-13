@@ -1,0 +1,2 @@
+export DOTNET_ENVIRONMENT=Production
+dotnet run
