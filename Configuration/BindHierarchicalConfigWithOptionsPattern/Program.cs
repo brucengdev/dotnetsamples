@@ -11,10 +11,19 @@ builder.Services.Configure<PositionOptions>(
 
 var app = builder.Build();
 
-//Resolve the options by using IOptions<TOptions>
+//Resolve the options from DI by using IOptions<TOptions>
 app.MapGet("/", async (HttpContext context, IOptions<PositionOptions> positionOptions) =>
 {
     var position = positionOptions.Value;
+    var responseString = $"Title: {position.Title}\nName: {position.Name}";
+    await context.Response.WriteAsync(responseString);
+});
+
+//this time you bind the options on the fly to an object by retrieving it from IConfiguration
+app.MapGet("/bindoptions", async (HttpContext context, IConfiguration config) =>
+{
+    var position = new PositionOptions();
+    config.GetSection(PositionOptions.ConfigSectionName).Bind(position);
     var responseString = $"Title: {position.Title}\nName: {position.Name}";
     await context.Response.WriteAsync(responseString);
 });
