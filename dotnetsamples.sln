@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExample", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentAppsettings", "Configuration\EnvironmentAppsettings\EnvironmentAppsettings.csproj", "{9032B693-2FD9-4B4B-9290-3BFB44A0F628}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{3C30736F-4385-4B60-B3CE-4268C637B033}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C30736F-4385-4B60-B3CE-4268C637B033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C30736F-4385-4B60-B3CE-4268C637B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C30736F-4385-4B60-B3CE-4268C637B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C30736F-4385-4B60-B3CE-4268C637B033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +163,7 @@ Global
 		{6E02962C-CA8A-44DA-98A5-E56C30EA4D2C} = {DD220EE5-A528-441A-9B54-B2AE4CC3D2E8}
 		{F3D85A23-121B-4BD0-BB8D-77E4EEDCC476} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{3C30736F-4385-4B60-B3CE-4268C637B033} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
