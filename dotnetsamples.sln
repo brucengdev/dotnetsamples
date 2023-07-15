@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentAppsettings", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{3C30736F-4385-4B60-B3CE-4268C637B033}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideConfigWithEnvironmentVars", "Configuration\OverrideConfigWithEnvironmentVars\OverrideConfigWithEnvironmentVars.csproj", "{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{3C30736F-4385-4B60-B3CE-4268C637B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C30736F-4385-4B60-B3CE-4268C637B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C30736F-4385-4B60-B3CE-4268C637B033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +170,7 @@ Global
 		{F3D85A23-121B-4BD0-BB8D-77E4EEDCC476} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{3C30736F-4385-4B60-B3CE-4268C637B033} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
