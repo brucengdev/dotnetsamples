@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideConfigWithEnvironme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretManagerDemo", "Configuration\SecretManagerDemo\SecretManagerDemo.csproj", "{73CBF1C1-8CD6-4640-ADA3-639639B91A27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseConnectionStringToSetSecretPassword", "Configuration\UseConnectionStringToSetSecretPassword\UseConnectionStringToSetSecretPassword.csproj", "{8A911F60-43F1-417A-8BDD-1A006F5DD684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{73CBF1C1-8CD6-4640-ADA3-639639B91A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CBF1C1-8CD6-4640-ADA3-639639B91A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CBF1C1-8CD6-4640-ADA3-639639B91A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A911F60-43F1-417A-8BDD-1A006F5DD684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A911F60-43F1-417A-8BDD-1A006F5DD684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A911F60-43F1-417A-8BDD-1A006F5DD684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A911F60-43F1-417A-8BDD-1A006F5DD684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -178,6 +184,7 @@ Global
 		{3C30736F-4385-4B60-B3CE-4268C637B033} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{73CBF1C1-8CD6-4640-ADA3-639639B91A27} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{8A911F60-43F1-417A-8BDD-1A006F5DD684} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}

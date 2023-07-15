@@ -1,5 +1,5 @@
 namespace SecretManagerDemo;
 
 public class MoviesOptions {
-    public string ConnectionString { get; set; }
+    public string Title { get; set; }
 }

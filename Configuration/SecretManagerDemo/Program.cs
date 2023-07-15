@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Options;
 using SecretManagerDemo;
+using System.Data.SqlClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,16 +14,24 @@ var app = builder.Build();
 //the secret config provider is registered by default with WebApplication.CreateBuilder
 app.MapGet("/", async (HttpContext context, IConfiguration config) => {
     var response = $"Please run create_secret.sh if you haven't done so";
-    var secret = config["Movies:ConnectionString"];
-    response += $"\nThe secret is {secret}";
+    var title = config["Movies:Title"];
+    response += $"\nMovies:Title = {title}";
+
+    //var connString = config["ConnectionStrings:MyDatabase"];
+    var connString = config.GetConnectionString("MyDatabase");
+    var builder = new SqlConnectionStringBuilder(connString);
+    builder.Password = config["Password"]??"";//Password is retrieved through secret.
+    connString = builder.ConnectionString;
+
+    response += $"\nConnectionStrings:MyDatabase = {connString}";
     await context.Response.WriteAsync(response);
 });
 
 //Retrieve secrets through DI
 app.MapGet("/bindsecrets", async (HttpContext context, IOptions<MoviesOptions> moviesOptions) => {
     var response = $"Please run create_secret.sh if you haven't done so";
-    var secret = moviesOptions.Value.ConnectionString;
-    response += $"\nThe secret is {secret}";
+    var title = moviesOptions.Value.Title;
+    response += $"\nMovies:Title = {title}";
     await context.Response.WriteAsync(response);
 });
 

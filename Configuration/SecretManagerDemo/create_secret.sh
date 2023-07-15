@@ -3,6 +3,7 @@
 dotnet user-secrets init
 
 # set some secret
-dotnet user-secrets set "Movies:ConnectionString" "blah blah blah"
+dotnet user-secrets set "Movies:Title" "blah blah blah"
 
+dotnet user-secrets set "Password" "The_quick_brown_fox"
 
