@@ -24,9 +24,15 @@ app.MapGet("/", async (HttpContext context, IOptions<PositionOptions> positionOp
 //this time you bind the options on the fly to an object by retrieving it from IConfiguration
 app.MapGet("/bindoptions", async (HttpContext context, IConfiguration config) =>
 {
+    //use Bind, so it will copy data to an existing object
     var position = new PositionOptions();
     config.GetSection(PositionOptions.ConfigSectionName).Bind(position);
+
+    //Use Get<TOptions> so it will create and return an object
+    var position2 = config.GetSection(PositionOptions.ConfigSectionName).Get<PositionOptions>();
+
     var responseString = $"Title: {position.Title}\nName: {position.Name}";
+    responseString += $"\n\nFrom .Get<T>:\nTitle: {position2?.Title}\nName: {position2?.Name}";
     await context.Response.WriteAsync(responseString);
 });
 
