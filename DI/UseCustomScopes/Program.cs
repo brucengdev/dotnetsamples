@@ -35,6 +35,7 @@ app.MapGet("/scoped", async (HttpContext context, IServiceProvider serviceProvid
     //This SettingsScope is not actually a DI scope
     //It just replaces the settings in its constructor
     //And then restore the settings to previous values when it is disposed
+    //In practice, you would use it in unit and integration tests to switch out values for testing purpose
     
     //It is not related to DI scopes at all
     using (new SettingsScope(serviceProvider, (settings) =>
