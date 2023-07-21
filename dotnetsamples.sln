@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCustomScopes", "DI\UseCu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnvVarPrefix", "Configuration\CustomEnvVarPrefix\CustomEnvVarPrefix.csproj", "{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliSwitchMappingsExample", "Configuration\CliSwitchMappingsExample\CliSwitchMappingsExample.csproj", "{5A7592F8-02FA-41A1-9144-D1DB213B1809}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -192,6 +198,7 @@ Global
 		{73CBF1C1-8CD6-4640-ADA3-639639B91A27} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{50E9684E-9A73-418A-AC18-BB9AD28FFB76} = {DE06F29A-3B33-4525-8D2F-C0E25A934EAB}
 		{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{5A7592F8-02FA-41A1-9144-D1DB213B1809} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}

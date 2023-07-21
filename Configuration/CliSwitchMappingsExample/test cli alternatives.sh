@@ -1,0 +1,1 @@
+dotnet run -k1 key1val -k2 key2val /key3=key3val -alt4 key4val
