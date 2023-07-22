@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <configuration>
 	<MyKey>MyXMLFile Value</MyKey>
-	<Teacher>
+	<!-- Use the name attribute to distinguish elements of same type-->
+	<Teacher name="teacher0">
 		<Title>Math teacher</Title>
-		<Name>Alice</Name>
+		<Initials>Alice</Initials>
+	</Teacher>
+	<Teacher name="teacher1">
+		<Title>Literature teacher</Title>
+		<Initials>Jane</Initials>
 	</Teacher>
 </configuration>
