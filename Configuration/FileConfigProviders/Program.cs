@@ -37,6 +37,7 @@ app.MapGet("/", async (HttpContext context, IConfiguration config) =>
     strBuilder.Append($"MyKey={config["MyKey"]}");
     strBuilder.Append($"\nTeacher:teacher0:Title={config["Teacher:teacher0:Title"]}\nTeacher:teacher0:Initials={config["Teacher:teacher0:Initials"]}");
     strBuilder.Append($"\nTeacher:teacher1:Title={config["Teacher:teacher1:Title"]}\nTeacher:teacher1:Initials={config["Teacher:teacher1:Initials"]}");
+    strBuilder.Append($"\nTeacher:teacher1:Initials:fullname={config["Teacher:teacher1:Initials:fullname"]}");
 
     var responseStr = strBuilder.ToString();
     await context.Response.WriteAsync(responseStr);

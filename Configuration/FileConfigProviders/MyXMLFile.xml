@@ -8,6 +8,6 @@
 	</Teacher>
 	<Teacher name="teacher1">
 		<Title>Literature teacher</Title>
-		<Initials>Jane</Initials>
+		<Initials fullname="Mary Jane Watson">Jane</Initials>
 	</Teacher>
 </configuration>
