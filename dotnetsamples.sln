@@ -35,37 +35,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XUnit", "XUnit", "{F0ED9AA3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DI", "DI", "{DE06F29A-3B33-4525-8D2F-C0E25A934EAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{B1597711-5AA2-4D27-BA97-7F73A6994DAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{B1597711-5AA2-4D27-BA97-7F73A6994DAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{2AAEAC10-4290-478D-A4E1-4AFAC52D1A21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Razor", "Razor", "{157A9B01-B5A8-4669-8B1A-6FD3DD8B8C71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponseAndRequestOperations", "Middlewares\ResponseAndRequestOperations\ResponseAndRequestOperations.csproj", "{D614DBBC-663D-45D2-8EC2-036917FC6EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponseAndRequestOperations", "Middlewares\ResponseAndRequestOperations\ResponseAndRequestOperations.csproj", "{D614DBBC-663D-45D2-8EC2-036917FC6EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestDecompression", "Middlewares\RequestDecompression\RequestDecompression.csproj", "{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestDecompression", "Middlewares\RequestDecompression\RequestDecompression.csproj", "{5DCF1388-1FD4-4D0A-9668-5B464111CCFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryBasedMiddleware", "Middlewares\FactoryBasedMiddleware\FactoryBasedMiddleware.csproj", "{43ACEA70-F3AD-4F65-9B4C-C98957B7DEC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryBasedMiddleware", "Middlewares\FactoryBasedMiddleware\FactoryBasedMiddleware.csproj", "{43ACEA70-F3AD-4F65-9B4C-C98957B7DEC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteAsyncCodeInSyncCode", "Async\WriteAsyncCodeInSyncCode\WriteAsyncCodeInSyncCode.csproj", "{6E02962C-CA8A-44DA-98A5-E56C30EA4D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteAsyncCodeInSyncCode", "Async\WriteAsyncCodeInSyncCode\WriteAsyncCodeInSyncCode.csproj", "{6E02962C-CA8A-44DA-98A5-E56C30EA4D2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{ED49FD82-F6E0-4C61-9304-97FAE7301D5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExample", "Configuration\ConfigurationExample\ConfigurationExample.csproj", "{F3D85A23-121B-4BD0-BB8D-77E4EEDCC476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationExample", "Configuration\ConfigurationExample\ConfigurationExample.csproj", "{F3D85A23-121B-4BD0-BB8D-77E4EEDCC476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvironmentAppsettings", "Configuration\EnvironmentAppsettings\EnvironmentAppsettings.csproj", "{9032B693-2FD9-4B4B-9290-3BFB44A0F628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentAppsettings", "Configuration\EnvironmentAppsettings\EnvironmentAppsettings.csproj", "{9032B693-2FD9-4B4B-9290-3BFB44A0F628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{3C30736F-4385-4B60-B3CE-4268C637B033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{3C30736F-4385-4B60-B3CE-4268C637B033}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideConfigWithEnvironmentVars", "Configuration\OverrideConfigWithEnvironmentVars\OverrideConfigWithEnvironmentVars.csproj", "{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverrideConfigWithEnvironmentVars", "Configuration\OverrideConfigWithEnvironmentVars\OverrideConfigWithEnvironmentVars.csproj", "{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretManagerDemo", "Configuration\SecretManagerDemo\SecretManagerDemo.csproj", "{73CBF1C1-8CD6-4640-ADA3-639639B91A27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretManagerDemo", "Configuration\SecretManagerDemo\SecretManagerDemo.csproj", "{73CBF1C1-8CD6-4640-ADA3-639639B91A27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCustomScopes", "DI\UseCustomScopes\UseCustomScopes.csproj", "{50E9684E-9A73-418A-AC18-BB9AD28FFB76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnvVarPrefix", "Configuration\CustomEnvVarPrefix\CustomEnvVarPrefix.csproj", "{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliSwitchMappingsExample", "Configuration\CliSwitchMappingsExample\CliSwitchMappingsExample.csproj", "{5A7592F8-02FA-41A1-9144-D1DB213B1809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionStringPrefixes", "Configuration\ConnectionStringPrefixes\ConnectionStringPrefixes.csproj", "{2F109A40-4208-4A9B-AABC-007327880A89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +175,10 @@ Global
 		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A7592F8-02FA-41A1-9144-D1DB213B1809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F109A40-4208-4A9B-AABC-007327880A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F109A40-4208-4A9B-AABC-007327880A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F109A40-4208-4A9B-AABC-007327880A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F109A40-4208-4A9B-AABC-007327880A89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +205,7 @@ Global
 		{50E9684E-9A73-418A-AC18-BB9AD28FFB76} = {DE06F29A-3B33-4525-8D2F-C0E25A934EAB}
 		{BA0D4CCF-9527-4BA1-A7AD-62A9BB8A66E2} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{5A7592F8-02FA-41A1-9144-D1DB213B1809} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{2F109A40-4208-4A9B-AABC-007327880A89} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
