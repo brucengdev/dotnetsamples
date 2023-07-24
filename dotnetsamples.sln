@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileConfigProviders", "Conf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyPerFileConfig", "Configuration\KeyPerFileConfig\KeyPerFileConfig.csproj", "{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryConfig", "Configuration\InMemoryConfig\InMemoryConfig.csproj", "{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +193,10 @@ Global
 		{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,6 +226,7 @@ Global
 		{2F109A40-4208-4A9B-AABC-007327880A89} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{EB00E4C5-F945-49F8-8698-7635E3172057} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
