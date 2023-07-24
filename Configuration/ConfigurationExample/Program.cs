@@ -24,6 +24,23 @@ app.MapGet("/", (HttpContext context, IConfiguration config) => {
     };
     builder.Append("\n\nConfigurations:\n\n");
     builder.Append(string.Join("\n", keys.Select(k => $"{k}: {config[k]}")));
+
+    //other methods to get configs from IConfiguration
+    var number = config.GetValue<int>("ANumber");
+    builder.Append($"\nANumber={number}");
+    
+    //GetSection, set breakpoints here to check
+    var positionSection = config.GetSection("Position");
+    var title = positionSection["Title"];
+    var name = positionSection["Name"];
+
+    var children = config.GetChildren();
+    var barSection = config.GetSection("Bar");
+    if (!barSection.Exists())
+    {
+        builder.Append("\nSection Bar does not exist");
+    }
+
     return builder.ToString();
 });
 
