@@ -2,7 +2,7 @@
 static async IAsyncEnumerable<string> GetWords()
 {
     string data = @"This is the first line
-                  This is the second line
+                  This is the second line failed
                     This is the last line";
     using var reader = new StringReader(data);
     var line = await reader.ReadLineAsync();
@@ -14,6 +14,9 @@ static async IAsyncEnumerable<string> GetWords()
             if (word != "")
             {
                 yield return word;
+            }
+            if(word == "failed") {
+                yield break;
             }
         }
         line = await reader.ReadLineAsync();
