@@ -1,4 +1,5 @@
 using System.Text;
+using ConfigurationExample;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -40,7 +41,13 @@ app.MapGet("/", (HttpContext context, IConfiguration config) => {
     {
         builder.Append("\nSection Bar does not exist");
     }
-
+    
+    //Binding to arrays
+    var arrayExample = config.GetSection("Array").Get<ArrayExample>();
+    builder.Append($"\n\nArray example");
+    builder.Append($"\nArray.ArrayWithKeys={string.Join(",", arrayExample.ArrayWithKeys)}");
+    builder.Append($"\nArray.Array={string.Join(",", arrayExample.Array)}");
+    
     return builder.ToString();
 });
 
