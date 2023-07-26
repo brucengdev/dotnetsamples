@@ -1,25 +1,18 @@
+using CustomConfigurationProviderExample.Extensions;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddRazorPages();
+builder.Configuration.AddEFConfiguration(
+    opt => opt.UseInMemoryDatabase("InMemoryDb"));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+app.MapGet("/", async (HttpContext context, IConfiguration config) =>
 {
-    app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapRazorPages();
+    var keys = new[] { "quote1", "quote2", "quote3" };
+    var responseStr = string.Join("\n", keys.Select(k => $"{k}={config[k]}"));
+    await context.Response.WriteAsync(responseStr);
+});
 
 app.Run();
