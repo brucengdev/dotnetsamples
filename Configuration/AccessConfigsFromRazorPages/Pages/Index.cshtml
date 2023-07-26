@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@inject IConfiguration config
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>The quote is "@config["TheQuote"]"</p>
+</div>
