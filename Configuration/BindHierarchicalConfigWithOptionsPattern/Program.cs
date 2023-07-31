@@ -1,6 +1,14 @@
-using System.Text;
 using BindHierarchicalConfigWithOptionsPattern;
 using Microsoft.Extensions.Options;
+
+/*
+ * Basically
+ * 1. Use IOptions if options are loaded at the start of the application and never reload.
+ * 2. Use IOptionsSnapshot to make sure options are up-to-date for every request.
+ * 3. Use IOptionsMonitor to get up-to-date options for singletons.
+ * The first approach is most performant, but options are not reloaded in real time when config files
+ * are changed
+ */
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +16,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<PositionOptions>(
     builder.Configuration.GetSection(PositionOptions.ConfigSectionName)
 );
+
+builder.Services.AddSingleton<ISingletonService, SingletonService>();
 
 var app = builder.Build();
 
@@ -38,10 +48,21 @@ app.MapGet("/bindoptions", async (HttpContext context, IConfiguration config) =>
 
 //IOptionsSnapshot can get up-to-date config if the appsettings.json file is modified
 //while the application is running
+//IOptionsSnapshot is a scoped service, so it recomputes the options for every request.
+//It can affect performance of the app, so be careful here
 app.MapGet("/ioptionssnapshot", async (HttpContext context, IOptionsSnapshot<PositionOptions> positionOptions) =>
 {
     var position = positionOptions.Value;
     var responseString = $"Title: {position.Title}\nName: {position.Name}";
+    await context.Response.WriteAsync(responseString);
+});
+
+//IOptionsMonitor get the values of the options at any given time
+//suitable for singletons, this example inject a singleton that uses IOptionsMonitor to fetch options
+//Try updating the appsettings.json file configs and see if the endpoint returns new values
+app.MapGet("/ioptionsmonitor", async (HttpContext context, ISingletonService service) =>
+{
+    var responseString = $"Title: {service.Title}\nName: {service.Name}";
     await context.Response.WriteAsync(responseString);
 });
 
