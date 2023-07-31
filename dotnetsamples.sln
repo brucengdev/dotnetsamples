@@ -53,8 +53,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationExample", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvironmentAppsettings", "Configuration\EnvironmentAppsettings\EnvironmentAppsettings.csproj", "{9032B693-2FD9-4B4B-9290-3BFB44A0F628}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{3C30736F-4385-4B60-B3CE-4268C637B033}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverrideConfigWithEnvironmentVars", "Configuration\OverrideConfigWithEnvironmentVars\OverrideConfigWithEnvironmentVars.csproj", "{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretManagerDemo", "Configuration\SecretManagerDemo\SecretManagerDemo.csproj", "{73CBF1C1-8CD6-4640-ADA3-639639B91A27}"
@@ -82,6 +80,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureOptionsWithDelegates", "Configuration\ConfigureOptionsWithDelegates\ConfigureOptionsWithDelegates.csproj", "{27EDC460-D8EC-4FF0-9263-0EC95722B72D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionsPattern", "OptionsPattern", "{ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\OptionsPattern\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{5660BF12-34A7-4BEF-90BB-F0057F4AD457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,10 +161,6 @@ Global
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9032B693-2FD9-4B4B-9290-3BFB44A0F628}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C30736F-4385-4B60-B3CE-4268C637B033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C30736F-4385-4B60-B3CE-4268C637B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C30736F-4385-4B60-B3CE-4268C637B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C30736F-4385-4B60-B3CE-4268C637B033}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD5ECE7F-59EC-4F04-A62D-CFA090EA2ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -217,6 +213,10 @@ Global
 		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5660BF12-34A7-4BEF-90BB-F0057F4AD457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5660BF12-34A7-4BEF-90BB-F0057F4AD457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5660BF12-34A7-4BEF-90BB-F0057F4AD457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5660BF12-34A7-4BEF-90BB-F0057F4AD457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,7 +250,7 @@ Global
 		{1E5538C0-AB59-4406-A89B-13E796511B17} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{27EDC460-D8EC-4FF0-9263-0EC95722B72D} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
-		{3C30736F-4385-4B60-B3CE-4268C637B033} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
+		{5660BF12-34A7-4BEF-90BB-F0057F4AD457} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
