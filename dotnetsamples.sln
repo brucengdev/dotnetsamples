@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async-AsyncStream", "Async\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessConfigsFromRazorPages", "Configuration\AccessConfigsFromRazorPages\AccessConfigsFromRazorPages.csproj", "{1E5538C0-AB59-4406-A89B-13E796511B17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureOptionsWithDelegates", "Configuration\ConfigureOptionsWithDelegates\ConfigureOptionsWithDelegates.csproj", "{27EDC460-D8EC-4FF0-9263-0EC95722B72D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{1E5538C0-AB59-4406-A89B-13E796511B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E5538C0-AB59-4406-A89B-13E796511B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E5538C0-AB59-4406-A89B-13E796511B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EDC460-D8EC-4FF0-9263-0EC95722B72D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +247,7 @@ Global
 		{3C473795-4C5E-4F7D-92A3-49EEADA60FCE} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{A4956B68-38D3-4F42-B1D5-876853BE222F} = {DD220EE5-A528-441A-9B54-B2AE4CC3D2E8}
 		{1E5538C0-AB59-4406-A89B-13E796511B17} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
+		{27EDC460-D8EC-4FF0-9263-0EC95722B72D} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}

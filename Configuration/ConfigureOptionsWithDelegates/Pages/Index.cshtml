@@ -1,0 +1,14 @@
+﻿@page
+@using Microsoft.Extensions.Options
+@model IndexModel
+@inject IOptions<StudentOptions> student
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        The student is @student.Value.Title @student.Value.Name
+    </p>
+</div>

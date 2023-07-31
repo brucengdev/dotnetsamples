@@ -2,9 +2,14 @@ using System.Text;
 using ConfigurationExample;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//This demonstrates how to get configs here
+Console.WriteLine("ANumber={0}", builder.Configuration["ANumber"]);
+
 var app = builder.Build();
 
 //list configuration providers in the order they are used
+//This also demonstrates how to get config using DI.
 app.MapGet("/", (HttpContext context, IConfiguration config) => {
     var configRoot = (IConfigurationRoot)config;
     var builder = new StringBuilder();
