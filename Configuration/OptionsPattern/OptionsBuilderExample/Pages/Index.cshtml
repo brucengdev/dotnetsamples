@@ -1,0 +1,21 @@
+﻿@page
+@using Microsoft.Extensions.Options
+@model IndexModel
+@inject IOptions<TopItemSettings> currentBestTablet
+@inject IOptionsSnapshot<TopItemSettings> bestModelAccessor
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>Current best tablet model</h1>
+    <p>
+        Name: @currentBestTablet.Value.Name <br/>
+        Model: @currentBestTablet.Value.Model
+    </p>
+    <h1>This year best tablet model</h1>
+    <p>
+        Name: @bestModelAccessor.Get("Year").Name <br/>
+        Model: @bestModelAccessor.Get("Year").Model
+    </p>
+</div>

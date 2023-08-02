@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindHierarchicalConfigWithO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedOptions", "Configuration\OptionsPattern\NamedOptions\NamedOptions.csproj", "{5F9C8E24-E784-48AB-9413-4371B037F5D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsBuilderExample", "Configuration\OptionsPattern\OptionsBuilderExample\OptionsBuilderExample.csproj", "{23F7BF5F-B918-4156-9C58-4E7F70A550EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,10 @@ Global
 		{5F9C8E24-E784-48AB-9413-4371B037F5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F9C8E24-E784-48AB-9413-4371B037F5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F9C8E24-E784-48AB-9413-4371B037F5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F7BF5F-B918-4156-9C58-4E7F70A550EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F7BF5F-B918-4156-9C58-4E7F70A550EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F7BF5F-B918-4156-9C58-4E7F70A550EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F7BF5F-B918-4156-9C58-4E7F70A550EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -258,6 +264,7 @@ Global
 		{ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 		{5660BF12-34A7-4BEF-90BB-F0057F4AD457} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 		{5F9C8E24-E784-48AB-9413-4371B037F5D8} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
+		{23F7BF5F-B918-4156-9C58-4E7F70A550EE} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
