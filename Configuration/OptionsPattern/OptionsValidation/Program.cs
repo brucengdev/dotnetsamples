@@ -2,6 +2,13 @@ using OptionsValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
+/*
+ * This example demonstrates
+ * 1- Validation using data annotations
+ * 2- Validation using a delegate
+ *  
+ */
+
 // Add services to the container.
 builder.Services.AddRazorPages();
 

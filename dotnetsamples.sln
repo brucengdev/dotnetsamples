@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsBuilderExample", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsValidation", "Configuration\OptionsPattern\OptionsValidation\OptionsValidation.csproj", "{BDDDE3B2-C05C-4CC0-8AFE-96DF53F149DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IValidateOptionsExample", "Configuration\OptionsPattern\IValidateOptionsExample\IValidateOptionsExample.csproj", "{549AB8A3-1FF6-4697-AF1A-AF39AD52562B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -235,6 +237,10 @@ Global
 		{BDDDE3B2-C05C-4CC0-8AFE-96DF53F149DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDDDE3B2-C05C-4CC0-8AFE-96DF53F149DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDDDE3B2-C05C-4CC0-8AFE-96DF53F149DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549AB8A3-1FF6-4697-AF1A-AF39AD52562B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549AB8A3-1FF6-4697-AF1A-AF39AD52562B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549AB8A3-1FF6-4697-AF1A-AF39AD52562B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549AB8A3-1FF6-4697-AF1A-AF39AD52562B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +278,7 @@ Global
 		{5F9C8E24-E784-48AB-9413-4371B037F5D8} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 		{23F7BF5F-B918-4156-9C58-4E7F70A550EE} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 		{BDDDE3B2-C05C-4CC0-8AFE-96DF53F149DE} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
+		{549AB8A3-1FF6-4697-AF1A-AF39AD52562B} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
