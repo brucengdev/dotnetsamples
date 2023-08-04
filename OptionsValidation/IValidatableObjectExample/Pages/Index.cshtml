@@ -1,0 +1,16 @@
+﻿@page
+@using Microsoft.Extensions.Options
+@model IndexModel
+@inject IOptions<MyConfigOptions> myConfig
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>MyConfig</h1>
+    <p>
+        Key1 = @myConfig.Value.Key1 <br/>
+        Key2 = @myConfig.Value.Key2 <br/>
+        Key3 = @myConfig.Value.Key3
+    </p>
+</div>
