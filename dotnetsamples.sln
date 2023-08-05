@@ -65,37 +65,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CliSwitchMappingsExample", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectionStringPrefixes", "Configuration\ConnectionStringPrefixes\ConnectionStringPrefixes.csproj", "{2F109A40-4208-4A9B-AABC-007327880A89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileConfigProviders", "Configuration\FileConfigProviders\FileConfigProviders.csproj", "{EB00E4C5-F945-49F8-8698-7635E3172057}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileConfigProviders", "Configuration\FileConfigProviders\FileConfigProviders.csproj", "{EB00E4C5-F945-49F8-8698-7635E3172057}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyPerFileConfig", "Configuration\KeyPerFileConfig\KeyPerFileConfig.csproj", "{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyPerFileConfig", "Configuration\KeyPerFileConfig\KeyPerFileConfig.csproj", "{A746C00B-A3DC-4710-93DB-2CDB5DBCCE1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryConfig", "Configuration\InMemoryConfig\InMemoryConfig.csproj", "{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryConfig", "Configuration\InMemoryConfig\InMemoryConfig.csproj", "{726F9BB8-B53D-4C0C-BFC1-7E66C248B22A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConfigurationProviderExample", "Configuration\CustomConfigurationProviderExample\CustomConfigurationProviderExample.csproj", "{3C473795-4C5E-4F7D-92A3-49EEADA60FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomConfigurationProviderExample", "Configuration\CustomConfigurationProviderExample\CustomConfigurationProviderExample.csproj", "{3C473795-4C5E-4F7D-92A3-49EEADA60FCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async-AsyncStream", "Async\Async-AsyncStreamAndAsyncEnumerable\Async-AsyncStream.csproj", "{A4956B68-38D3-4F42-B1D5-876853BE222F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async-AsyncStream", "Async\Async-AsyncStreamAndAsyncEnumerable\Async-AsyncStream.csproj", "{A4956B68-38D3-4F42-B1D5-876853BE222F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessConfigsFromRazorPages", "Configuration\AccessConfigsFromRazorPages\AccessConfigsFromRazorPages.csproj", "{1E5538C0-AB59-4406-A89B-13E796511B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessConfigsFromRazorPages", "Configuration\AccessConfigsFromRazorPages\AccessConfigsFromRazorPages.csproj", "{1E5538C0-AB59-4406-A89B-13E796511B17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureOptionsWithDelegates", "Configuration\ConfigureOptionsWithDelegates\ConfigureOptionsWithDelegates.csproj", "{27EDC460-D8EC-4FF0-9263-0EC95722B72D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureOptionsWithDelegates", "Configuration\ConfigureOptionsWithDelegates\ConfigureOptionsWithDelegates.csproj", "{27EDC460-D8EC-4FF0-9263-0EC95722B72D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionsPattern", "OptionsPattern", "{ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\OptionsPattern\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{5660BF12-34A7-4BEF-90BB-F0057F4AD457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindHierarchicalConfigWithOptionsPattern", "Configuration\OptionsPattern\BindHierarchicalConfigWithOptionsPattern\BindHierarchicalConfigWithOptionsPattern.csproj", "{5660BF12-34A7-4BEF-90BB-F0057F4AD457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamedOptions", "Configuration\OptionsPattern\NamedOptions\NamedOptions.csproj", "{5F9C8E24-E784-48AB-9413-4371B037F5D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamedOptions", "Configuration\OptionsPattern\NamedOptions\NamedOptions.csproj", "{5F9C8E24-E784-48AB-9413-4371B037F5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsBuilderExample", "Configuration\OptionsPattern\OptionsBuilderExample\OptionsBuilderExample.csproj", "{23F7BF5F-B918-4156-9C58-4E7F70A550EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionsBuilderExample", "Configuration\OptionsPattern\OptionsBuilderExample\OptionsBuilderExample.csproj", "{23F7BF5F-B918-4156-9C58-4E7F70A550EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OptionsValidation", "OptionsValidation", "{E38CDFB8-BB62-429C-B61A-A55F2B549576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IValidateOptionsExample", "OptionsValidation\IValidateOptionsExample\IValidateOptionsExample.csproj", "{275609B3-4AAA-4991-81AA-80E3AC873B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IValidateOptionsExample", "OptionsValidation\IValidateOptionsExample\IValidateOptionsExample.csproj", "{275609B3-4AAA-4991-81AA-80E3AC873B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionsValidation", "OptionsValidation\OptionsValidation\OptionsValidation.csproj", "{416219A0-5B21-4B5C-9E4B-AAB688D191BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionsValidation", "OptionsValidation\OptionsValidation\OptionsValidation.csproj", "{416219A0-5B21-4B5C-9E4B-AAB688D191BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IValidatableObjectExample", "OptionsValidation\IValidatableObjectExample\IValidatableObjectExample.csproj", "{069C0F92-AEC7-4386-9168-58FCA53E274B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IValidatableObjectExample", "OptionsValidation\IValidatableObjectExample\IValidatableObjectExample.csproj", "{069C0F92-AEC7-4386-9168-58FCA53E274B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateOnStart", "OptionsValidation\ValidateOnStart\ValidateOnStart.csproj", "{6695FFE1-5E46-4064-A4BF-68B5FE15C697}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateOnStart", "OptionsValidation\ValidateOnStart\ValidateOnStart.csproj", "{6695FFE1-5E46-4064-A4BF-68B5FE15C697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostConfigureExample", "Configuration\PostConfigureExample\PostConfigureExample.csproj", "{A3B3223F-E6F2-4E14-B4E3-32C3DE03C85D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{6695FFE1-5E46-4064-A4BF-68B5FE15C697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6695FFE1-5E46-4064-A4BF-68B5FE15C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6695FFE1-5E46-4064-A4BF-68B5FE15C697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B3223F-E6F2-4E14-B4E3-32C3DE03C85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B3223F-E6F2-4E14-B4E3-32C3DE03C85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B3223F-E6F2-4E14-B4E3-32C3DE03C85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B3223F-E6F2-4E14-B4E3-32C3DE03C85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -295,6 +301,7 @@ Global
 		{416219A0-5B21-4B5C-9E4B-AAB688D191BD} = {E38CDFB8-BB62-429C-B61A-A55F2B549576}
 		{069C0F92-AEC7-4386-9168-58FCA53E274B} = {E38CDFB8-BB62-429C-B61A-A55F2B549576}
 		{6695FFE1-5E46-4064-A4BF-68B5FE15C697} = {E38CDFB8-BB62-429C-B61A-A55F2B549576}
+		{A3B3223F-E6F2-4E14-B4E3-32C3DE03C85D} = {ED49FD82-F6E0-4C61-9304-97FAE7301D5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}

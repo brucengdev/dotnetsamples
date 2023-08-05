@@ -1,0 +1,20 @@
+﻿@page
+@using Microsoft.Extensions.Options;
+@model IndexModel
+@inject IOptionsSnapshot<TopItemsSettings> optionsAccessor
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>Top item currently</h1>
+    <p>
+        @optionsAccessor.Get(null).Name - @optionsAccessor.Get(null).Model<br/>
+        @optionsAccessor.Get(null).Description
+    </p>
+    <h1>Top Item this year</h1>
+    <p>
+        @optionsAccessor.Get("Year").Name - @optionsAccessor.Get("Year").Model<br/>
+        @optionsAccessor.Get("Year").Description
+    </p>
+</div>
