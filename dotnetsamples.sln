@@ -101,6 +101,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostConfigureExample", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessIOptiosnInProgramCs", "AccessIOptiosnInProgramCs\AccessIOptiosnInProgramCs.csproj", "{4BA2214B-9B50-49D3-AAF4-664A10F20489}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{3A452145-69D3-4291-B487-A28B23471447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearDefaultLoggingSettings", "Logging\ClearDefaultLoggingSettings\ClearDefaultLoggingSettings.csproj", "{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +271,10 @@ Global
 		{4BA2214B-9B50-49D3-AAF4-664A10F20489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA2214B-9B50-49D3-AAF4-664A10F20489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA2214B-9B50-49D3-AAF4-664A10F20489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -309,6 +317,7 @@ Global
 		{6695FFE1-5E46-4064-A4BF-68B5FE15C697} = {E38CDFB8-BB62-429C-B61A-A55F2B549576}
 		{5DB3FFAE-F97F-42DD-AEFD-2A112A82CA75} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 		{4BA2214B-9B50-49D3-AAF4-664A10F20489} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
+		{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46} = {3A452145-69D3-4291-B487-A28B23471447}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
