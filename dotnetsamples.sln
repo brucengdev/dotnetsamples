@@ -107,6 +107,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearDefaultLoggingSettings
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingConfigs", "Logging\LoggingConfigs\LoggingConfigs.csproj", "{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingInProgramCs", "Logging\LoggingInProgramCs\LoggingInProgramCs.csproj", "{9D18BB8B-1754-45F4-8293-663782D33CB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -281,6 +283,10 @@ Global
 		{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D18BB8B-1754-45F4-8293-663782D33CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D18BB8B-1754-45F4-8293-663782D33CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D18BB8B-1754-45F4-8293-663782D33CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D18BB8B-1754-45F4-8293-663782D33CB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -325,6 +331,7 @@ Global
 		{4BA2214B-9B50-49D3-AAF4-664A10F20489} = {ABF57E7D-D5AB-44F4-A1E3-10CEAC16D759}
 		{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46} = {3A452145-69D3-4291-B487-A28B23471447}
 		{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7} = {3A452145-69D3-4291-B487-A28B23471447}
+		{9D18BB8B-1754-45F4-8293-663782D33CB1} = {3A452145-69D3-4291-B487-A28B23471447}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
