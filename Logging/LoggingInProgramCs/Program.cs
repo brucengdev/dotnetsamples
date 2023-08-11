@@ -1,9 +1,14 @@
+using Microsoft.Extensions.Logging.Console;
+
 var builder = WebApplication.CreateBuilder(args);
 
 //First option: create a LoggerFactory, then use that to create a logger to write logs
 var loggerFactory = LoggerFactory.Create(config =>
 {
     config.AddConsole();
+
+    //Alternatively: use AddSimpleConsole to customize how logs are written to console
+    //config.AddSimpleConsole(builder => builder.ColorBehavior = LoggerColorBehavior.Disabled);
 });
 
 //Second option: use the Logger in app.Logger
