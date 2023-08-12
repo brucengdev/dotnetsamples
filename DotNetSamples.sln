@@ -99,23 +99,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateOnStart", "OptionsV
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostConfigureExample", "Configuration\OptionsPattern\PostConfigureExample\PostConfigureExample.csproj", "{5DB3FFAE-F97F-42DD-AEFD-2A112A82CA75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessIOptiosnInProgramCs", "AccessIOptiosnInProgramCs\AccessIOptiosnInProgramCs.csproj", "{4BA2214B-9B50-49D3-AAF4-664A10F20489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessIOptiosnInProgramCs", "AccessIOptiosnInProgramCs\AccessIOptiosnInProgramCs.csproj", "{4BA2214B-9B50-49D3-AAF4-664A10F20489}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{3A452145-69D3-4291-B487-A28B23471447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearDefaultLoggingSettings", "Logging\ClearDefaultLoggingSettings\ClearDefaultLoggingSettings.csproj", "{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClearDefaultLoggingSettings", "Logging\ClearDefaultLoggingSettings\ClearDefaultLoggingSettings.csproj", "{9C0C7FE1-A7CD-4A86-AD5D-9D228087EF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingConfigs", "Logging\LoggingConfigs\LoggingConfigs.csproj", "{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingConfigs", "Logging\LoggingConfigs\LoggingConfigs.csproj", "{F64ED5D3-7342-4DD4-9BCE-F74C288C67E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingInProgramCs", "Logging\LoggingInProgramCs\LoggingInProgramCs.csproj", "{9D18BB8B-1754-45F4-8293-663782D33CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingInProgramCs", "Logging\LoggingInProgramCs\LoggingInProgramCs.csproj", "{9D18BB8B-1754-45F4-8293-663782D33CB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingLogLevelInDifferentConfigProviders", "Logging\SettingLogLevelInDifferentConfigProviders\SettingLogLevelInDifferentConfigProviders.csproj", "{D00CC0C9-32DC-46DB-969E-C2F38AFC17DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SettingLogLevelInDifferentConfigProviders", "Logging\SettingLogLevelInDifferentConfigProviders\SettingLogLevelInDifferentConfigProviders.csproj", "{D00CC0C9-32DC-46DB-969E-C2F38AFC17DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingCategories", "Logging\LoggingCategories\LoggingCategories.csproj", "{08F6534D-3336-415B-8F78-19C4CEBCA533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggingCategories", "Logging\LoggingCategories\LoggingCategories.csproj", "{08F6534D-3336-415B-8F78-19C4CEBCA533}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogEventIdAndMessageTemplate", "Logging\LogEventIdAndMessageTemplate\LogEventIdAndMessageTemplate.csproj", "{34156C44-F6DE-497E-8B0E-445042310008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogEventIdAndMessageTemplate", "Logging\LogEventIdAndMessageTemplate\LogEventIdAndMessageTemplate.csproj", "{34156C44-F6DE-497E-8B0E-445042310008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogException", "Logging\LogException\LogException.csproj", "{0A280FAD-E45D-4409-B2E0-D713CC0712E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogException", "Logging\LogException\LogException.csproj", "{0A280FAD-E45D-4409-B2E0-D713CC0712E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogFiltering", "Logging\LogFiltering\LogFiltering.csproj", "{672B2374-78B8-4215-8544-F671CF48C91B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -311,6 +313,10 @@ Global
 		{0A280FAD-E45D-4409-B2E0-D713CC0712E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A280FAD-E45D-4409-B2E0-D713CC0712E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A280FAD-E45D-4409-B2E0-D713CC0712E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672B2374-78B8-4215-8544-F671CF48C91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672B2374-78B8-4215-8544-F671CF48C91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672B2374-78B8-4215-8544-F671CF48C91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672B2374-78B8-4215-8544-F671CF48C91B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -360,6 +366,7 @@ Global
 		{08F6534D-3336-415B-8F78-19C4CEBCA533} = {3A452145-69D3-4291-B487-A28B23471447}
 		{34156C44-F6DE-497E-8B0E-445042310008} = {3A452145-69D3-4291-B487-A28B23471447}
 		{0A280FAD-E45D-4409-B2E0-D713CC0712E4} = {3A452145-69D3-4291-B487-A28B23471447}
+		{672B2374-78B8-4215-8544-F671CF48C91B} = {3A452145-69D3-4291-B487-A28B23471447}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {719FA1D3-705F-4907-BC6C-261B750FB000}
