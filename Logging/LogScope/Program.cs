@@ -21,4 +21,6 @@ using (app.Logger.BeginScope(new Dictionary<string, string>
        //but for some other log providers it's possible to view all the log scope variables
 }
 
+app.MapGet("/", () => "Please check the console");
+
 app.Run();
