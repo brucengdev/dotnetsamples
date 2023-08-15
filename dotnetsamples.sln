@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessIOptiosnInProgramCs",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogScope", "Logging\LogScope\LogScope.csproj", "{4577B3B6-93BE-497E-A7D1-1B67F34A3FC6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HostAndStartup", "HostAndStartup", "{CD77E340-A759-43F6-9939-B36745F2F556}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
