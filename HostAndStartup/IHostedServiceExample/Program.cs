@@ -1,8 +1,11 @@
 using System.Numerics;
 using IHostedServiceExample;
 
+//If you use WebApplication.CreateBuilder, it already creates a generic host with a IHostedService implementation
+//for the web server
 var builder = WebApplication.CreateBuilder(args);
 
+//Register your own IHostedService
 builder.Services.AddHostedService<MyHostedService>();
 
 var app = builder.Build();
