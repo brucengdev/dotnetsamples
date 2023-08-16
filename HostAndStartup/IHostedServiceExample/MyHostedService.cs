@@ -23,6 +23,8 @@ public class MyHostedService: IHostedService
 
     public Task StopAsync(CancellationToken cancellationToken)
     {
+        //This is called when the application shuts down
+        Console.WriteLine("Stopping MyHostedService...");
         _cancellationTokenSource.Cancel();
         return Task.CompletedTask;
     }
