@@ -1,5 +1,8 @@
 namespace IHostedServiceExample;
 
+/*
+ * Note: In practice, use BackgroundService base class instead
+ */
 public class MyHostedService: IHostedService
 {
     private CancellationTokenSource _cancellationTokenSource;
