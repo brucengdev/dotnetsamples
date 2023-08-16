@@ -123,7 +123,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostAndStartup", "HostAndSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IHostedServiceExample", "HostAndStartup\IHostedServiceExample\IHostedServiceExample.csproj", "{9ADB88BD-F232-47C8-BBFD-C9D883DE403E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerServiceExample", "HostAndStartup\WorkerServiceExample\WorkerServiceExample.csproj", "{8B4B76CA-D09B-49C2-96BD-1D4549F104D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundServiceExample", "HostAndStartup\BackgroundServiceExample\BackgroundServiceExample.csproj", "{8B4B76CA-D09B-49C2-96BD-1D4549F104D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
