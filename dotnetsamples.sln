@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimedHostedServiceExample",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseScopedServiceInBackgroundTask", "HostAndStartup\UseScopedServiceInBackgroundTask\UseScopedServiceInBackgroundTask.csproj", "{766E26C3-CCA7-4747-95D6-8E3CDC98B960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueuedBackgroundTask", "HostAndStartup\QueuedBackgroundTask\QueuedBackgroundTask.csproj", "{44E18987-FE6E-4ED9-B3F6-32B65765A23F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -354,6 +356,10 @@ Global
 		{766E26C3-CCA7-4747-95D6-8E3CDC98B960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{766E26C3-CCA7-4747-95D6-8E3CDC98B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{766E26C3-CCA7-4747-95D6-8E3CDC98B960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E18987-FE6E-4ED9-B3F6-32B65765A23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E18987-FE6E-4ED9-B3F6-32B65765A23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E18987-FE6E-4ED9-B3F6-32B65765A23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E18987-FE6E-4ED9-B3F6-32B65765A23F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3F16A9E6-B064-498D-B22E-2FD34B66BF55} = {3C164854-2205-41AD-9232-A7E0CD8122D7}
@@ -406,5 +412,6 @@ Global
 		{8B4B76CA-D09B-49C2-96BD-1D4549F104D7} = {CD77E340-A759-43F6-9939-B36745F2F556}
 		{1552447B-8F79-4170-A1BE-6912FCB6ABF2} = {CD77E340-A759-43F6-9939-B36745F2F556}
 		{766E26C3-CCA7-4747-95D6-8E3CDC98B960} = {CD77E340-A759-43F6-9939-B36745F2F556}
+		{44E18987-FE6E-4ED9-B3F6-32B65765A23F} = {CD77E340-A759-43F6-9939-B36745F2F556}
 	EndGlobalSection
 EndGlobal
