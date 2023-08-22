@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Logging.Debug;
+
 var builder = WebApplication.CreateBuilder(args);
 
 /*
@@ -14,6 +16,10 @@ builder.Logging.AddFilter((string provider, string category, LogLevel level) =>
     return provider.Contains("ConsoleLoggerProvider")
         && level >= LogLevel.Warning;
 });
+
+//for debug provider, Microsoft category, log from information and above
+//this filter will do nothing due to the previous filter
+builder.Logging.AddFilter<DebugLoggerProvider>("Microsoft", LogLevel.Information);
 
 var app = builder.Build();
 
