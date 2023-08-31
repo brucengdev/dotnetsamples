@@ -53,10 +53,16 @@ internal class DelegateClassExample {
         //Example of a single delegate invoking multiple methods, this is called multicasting
         Console.WriteLine();
         Console.WriteLine("Example with multicasting");
-        CallBack firstCallBack = (result) => Console.WriteLine("This is first callback, result is {0}", result);
-        CallBack secondCallBack = (result) => Console.WriteLine("This is second callback, result is {0}", result);
+        CallBack firstCallBack = (result) => Console.WriteLine("first callback, result is {0}", result);
+        CallBack secondCallBack = (result) => Console.WriteLine("second callback, result is {0}", result);
         CallBack multicastDelegate = firstCallBack + secondCallBack;
         multicastDelegate("Chicken");
+        
+        //can also use +=
+        multicastDelegate += (result) => Console.WriteLine("third callback, result is {0}", result);
+        multicastDelegate -= secondCallBack;
+        Console.WriteLine("\nAnother example of delegate multicasting");
+        multicastDelegate("pork");
     }
 }
 
