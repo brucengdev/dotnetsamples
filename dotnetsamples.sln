@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitLogScope", "Logging
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomLogger", "Logging\CustomLogger\CustomLogger.csproj", "{F30F751B-03D3-4369-B676-9E0D769B764C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExamples", "DelegateExamples\DelegateExamples.csproj", "{0519965A-59FD-4E2E-8812-51E092B52BDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -378,6 +380,10 @@ Global
 		{F30F751B-03D3-4369-B676-9E0D769B764C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F30F751B-03D3-4369-B676-9E0D769B764C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F30F751B-03D3-4369-B676-9E0D769B764C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0519965A-59FD-4E2E-8812-51E092B52BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0519965A-59FD-4E2E-8812-51E092B52BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0519965A-59FD-4E2E-8812-51E092B52BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0519965A-59FD-4E2E-8812-51E092B52BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3F16A9E6-B064-498D-B22E-2FD34B66BF55} = {3C164854-2205-41AD-9232-A7E0CD8122D7}
