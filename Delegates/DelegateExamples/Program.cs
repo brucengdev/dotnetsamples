@@ -38,6 +38,12 @@ internal class DelegateClassExample {
         //assign delegate variable to an instance method
         op = Addition;
         Console.WriteLine("Executing an instance method: {0} + {1} = {2}", 5,6, op(5,6));
+
+        //the old style: you can also create a delegate and pass the method as parameter
+        op = new NumericFunction(Addition);
+
+        //create an anonymous method
+        op = delegate(int a, int b) { return a + b; };
         
         //assign delegate variable to a delegate using lambda expression
         op = (x, y) => x / y;
