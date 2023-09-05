@@ -64,11 +64,15 @@ internal class DelegateClassExample {
         CallBack multicastDelegate = firstCallBack + secondCallBack;
         multicastDelegate("Chicken");
         
-        //can also use +=
+        //can also use += and -=
         multicastDelegate += (result) => Console.WriteLine("third callback, result is {0}", result);
         multicastDelegate -= secondCallBack;
         Console.WriteLine("\nAnother example of delegate multicasting");
         multicastDelegate("pork");
+        
+        //List number of methods in delegate
+        var invocationList = multicastDelegate.GetInvocationList();
+        Console.WriteLine("Number of methods in delegate: {0}", invocationList.Length);
     }
 }
 
