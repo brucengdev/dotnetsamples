@@ -141,6 +141,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateExamples", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContraVariance", "CovarianceAndContraVariance\CovarianceAndContraVariance.csproj", "{953A6DDB-6F66-462A-89F7-0742D0B41104}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateBeginInvoke", "Delegates\DelegateBeginInvoke\DelegateBeginInvoke.csproj", "{2CB53B8A-2A82-46F3-9D37-95415150F85A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -383,6 +385,10 @@ Global
 		{953A6DDB-6F66-462A-89F7-0742D0B41104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953A6DDB-6F66-462A-89F7-0742D0B41104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953A6DDB-6F66-462A-89F7-0742D0B41104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB53B8A-2A82-46F3-9D37-95415150F85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB53B8A-2A82-46F3-9D37-95415150F85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB53B8A-2A82-46F3-9D37-95415150F85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB53B8A-2A82-46F3-9D37-95415150F85A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -444,6 +450,7 @@ Global
 		{F30F751B-03D3-4369-B676-9E0D769B764C} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
 		{6E67F544-B043-4B4E-B447-F13BF5FDC2C7} = {43C62419-535D-40CB-B1B6-55A171640912}
 		{953A6DDB-6F66-462A-89F7-0742D0B41104} = {43C62419-535D-40CB-B1B6-55A171640912}
+		{2CB53B8A-2A82-46F3-9D37-95415150F85A} = {43C62419-535D-40CB-B1B6-55A171640912}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
