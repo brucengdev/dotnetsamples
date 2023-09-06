@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateBeginInvoke", "Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpLogging", "Logging\HttpLogging\HttpLogging.csproj", "{4A6744A3-6E75-4E7E-8286-D43B7B489552}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3CLogging", "Logging\W3CLogging\W3CLogging.csproj", "{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -395,6 +397,10 @@ Global
 		{4A6744A3-6E75-4E7E-8286-D43B7B489552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6744A3-6E75-4E7E-8286-D43B7B489552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6744A3-6E75-4E7E-8286-D43B7B489552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -458,6 +464,7 @@ Global
 		{953A6DDB-6F66-462A-89F7-0742D0B41104} = {43C62419-535D-40CB-B1B6-55A171640912}
 		{2CB53B8A-2A82-46F3-9D37-95415150F85A} = {43C62419-535D-40CB-B1B6-55A171640912}
 		{4A6744A3-6E75-4E7E-8286-D43B7B489552} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
+		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
