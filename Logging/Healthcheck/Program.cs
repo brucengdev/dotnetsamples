@@ -33,7 +33,9 @@ app.MapHealthChecks("/health", new HealthCheckOptions()
             [HealthStatus.Healthy] = StatusCodes.Status200OK,
             [HealthStatus.Degraded] = StatusCodes.Status200OK,
             [HealthStatus.Unhealthy] = StatusCodes.Status503ServiceUnavailable
-        }
+        },
+        AllowCachingResponses = false//if this is false, the middlewares add cache-control header to response
+        //to prevent response caching of health probes.s    
     })
     .RequireHost("localhost:5103"); //healthchecks will only be in effect if the host is as specified
     //.RequireAuthorization();//use RequireAuthorization to allow only authenticated users to access healthchecks.
