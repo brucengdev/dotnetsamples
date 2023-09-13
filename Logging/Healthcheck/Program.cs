@@ -19,7 +19,10 @@ builder.Services.AddHealthChecks()
 
 var app = builder.Build();
 
-app.MapHealthChecks("/health");
+app.MapHealthChecks("/health")
+    .RequireHost("localhost:5103"); //healthchecks will only be in effect if the host is as specified
+    //.RequireAuthorization();//use RequireAuthorization to allow only authenticated users to access healthchecks.
+//.RequireCors();//it's not common to run healthchecks from a browser, but if so, use RequireCors
 
 app.MapGet("/", () => "Hello World!");
 
