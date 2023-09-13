@@ -8,7 +8,11 @@ builder.Services.AddHealthChecks()
         HealthStatus.Degraded, //Degraded will be returned if healthcheck failed 
         tags: new[] { "sample" })
     //tags are used to filter healthcheck, in case you have a lot of healthchecks, like a annual health check 
-    .AddCheck("healthcheck defined by a lambda", () => HealthCheckResult.Healthy("A healthy result."));
+    .AddCheck("healthcheck defined by a lambda", () => HealthCheckResult.Healthy("A healthy result."))
+    .AddTypeActivatedCheck<SampleHealthCheckWithArgs>(
+        "Health check with args",
+        HealthStatus.Unhealthy,
+        tags: new List<string> { "tag1", "tag2"}, 1, "test");
 
 // Can add other health checks, to separate them from each other for better separation of concerns
 //  .AddCheck<ServiceHealthCheck>("Check for service)
