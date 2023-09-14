@@ -1,3 +1,5 @@
+using System.Text;
+using System.Text.Json;
 using Healthcheck;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -34,12 +36,57 @@ app.MapHealthChecks("/health", new HealthCheckOptions()
             [HealthStatus.Degraded] = StatusCodes.Status200OK,
             [HealthStatus.Unhealthy] = StatusCodes.Status503ServiceUnavailable
         },
-        AllowCachingResponses = false//if this is false, the middlewares add cache-control header to response
-        //to prevent response caching of health probes.s    
+        AllowCachingResponses = false,//if this is false, the middlewares add cache-control header to response
+        //to prevent response caching of health probes.s
+        ResponseWriter = WriteResponse
+        //use a delegate to customize the health check output in the response
     })
     .RequireHost("localhost:5103"); //healthchecks will only be in effect if the host is as specified
     //.RequireAuthorization();//use RequireAuthorization to allow only authenticated users to access healthchecks.
 //.RequireCors();//it's not common to run healthchecks from a browser, but if so, use RequireCors
+
+static async Task WriteResponse(HttpContext context, HealthReport healthReport)
+{
+    context.Response.ContentType = "application/json; charset=utf-8";
+
+    var options = new JsonWriterOptions { Indented = true };
+
+    //the following code basically creates a JSON string in MemoryStream
+    //that contains the healthcheck results
+    using var memoryStream = new MemoryStream();
+    using (var jsonWriter = new Utf8JsonWriter(memoryStream, options))
+    {
+        jsonWriter.WriteStartObject();
+        jsonWriter.WriteString("status", healthReport.Status.ToString());
+        jsonWriter.WriteStartObject("results");
+
+        foreach (var healthReportEntry in healthReport.Entries)
+        {
+            jsonWriter.WriteStartObject(healthReportEntry.Key);
+            jsonWriter.WriteString("status",
+                healthReportEntry.Value.Status.ToString());
+            jsonWriter.WriteString("description",
+                healthReportEntry.Value.Description);
+            jsonWriter.WriteStartObject("data");
+
+            foreach (var item in healthReportEntry.Value.Data)
+            {
+                jsonWriter.WritePropertyName(item.Key);
+
+                JsonSerializer.Serialize(jsonWriter, item.Value,
+                    item.Value?.GetType() ?? typeof(object));
+            }
+
+            jsonWriter.WriteEndObject();
+            jsonWriter.WriteEndObject();
+        }
+
+        jsonWriter.WriteEndObject();
+        jsonWriter.WriteEndObject();
+    }
+
+    await context.Response.WriteAsync(Encoding.UTF8.GetString(memoryStream.ToArray()));
+}
 
 app.MapGet("/", () => "Hello World!");
 
