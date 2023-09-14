@@ -15,6 +15,9 @@ builder.Services.AddHealthChecks()
     {
         return HealthCheckResult.Healthy("A healthy result.");
     })
+    //the following healthcheck will run a test query to the Database to check that the database connection
+    //is working
+    .AddSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
     .AddTypeActivatedCheck<SampleHealthCheckWithArgs>(
         "Health check with args",
         HealthStatus.Unhealthy,
