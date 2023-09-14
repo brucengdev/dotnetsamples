@@ -147,11 +147,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpLogging", "Logging\Http
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3CLogging", "Logging\W3CLogging\W3CLogging.csproj", "{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcheck", "Logging\Healthcheck\Healthcheck.csproj", "{466FF3F0-3D03-41C1-9C02-F4C816E4D978}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashCodeAndDistinct", "HashCodeAndDistinct\HashCodeAndDistinct.csproj", "{6024AE4D-5B5C-4FD7-94E0-73438F66F6FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAccessingPrivateMethod", "TestAccessingPrivateMethod\TestAccessingPrivateMethod.csproj", "{D8422D34-2CAA-4F50-B0DC-EF2D52016EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthChecks", "{BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcheck", "HealthChecks\Healthcheck\Healthcheck.csproj", "{1F368CCA-CF01-4EEE-9953-D282FA01CD81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -407,10 +409,6 @@ Global
 		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{466FF3F0-3D03-41C1-9C02-F4C816E4D978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{466FF3F0-3D03-41C1-9C02-F4C816E4D978}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{466FF3F0-3D03-41C1-9C02-F4C816E4D978}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{466FF3F0-3D03-41C1-9C02-F4C816E4D978}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6024AE4D-5B5C-4FD7-94E0-73438F66F6FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6024AE4D-5B5C-4FD7-94E0-73438F66F6FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6024AE4D-5B5C-4FD7-94E0-73438F66F6FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -419,6 +417,10 @@ Global
 		{D8422D34-2CAA-4F50-B0DC-EF2D52016EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8422D34-2CAA-4F50-B0DC-EF2D52016EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8422D34-2CAA-4F50-B0DC-EF2D52016EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -483,7 +485,7 @@ Global
 		{2CB53B8A-2A82-46F3-9D37-95415150F85A} = {43C62419-535D-40CB-B1B6-55A171640912}
 		{4A6744A3-6E75-4E7E-8286-D43B7B489552} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
 		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
-		{466FF3F0-3D03-41C1-9C02-F4C816E4D978} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
+		{1F368CCA-CF01-4EEE-9953-D282FA01CD81} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
