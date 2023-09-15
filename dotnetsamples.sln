@@ -155,6 +155,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthCheck
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcheck", "HealthChecks\Healthcheck\Healthcheck.csproj", "{1F368CCA-CF01-4EEE-9953-D282FA01CD81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivenessAndReadiness", "HealthChecks\LivenessAndReadiness\LivenessAndReadiness.csproj", "{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -421,6 +423,10 @@ Global
 		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F368CCA-CF01-4EEE-9953-D282FA01CD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -486,6 +492,7 @@ Global
 		{4A6744A3-6E75-4E7E-8286-D43B7B489552} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
 		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
 		{1F368CCA-CF01-4EEE-9953-D282FA01CD81} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
+		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
