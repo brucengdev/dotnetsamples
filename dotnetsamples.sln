@@ -157,6 +157,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcheck", "HealthChecks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivenessAndReadiness", "HealthChecks\LivenessAndReadiness\LivenessAndReadiness.csproj", "{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpContext", "HttpContext", "{46D939A4-94E2-4361-A237-77E2ED5B9D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBody", "HttpContext\ReadRequestBody\ReadRequestBody.csproj", "{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -427,6 +431,10 @@ Global
 		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -493,6 +501,7 @@ Global
 		{51040F3E-85D6-4FCC-8F32-810D9FCFCF46} = {17D5F4EF-7DA2-4119-A5E9-34B9BE7CB5AC}
 		{1F368CCA-CF01-4EEE-9953-D282FA01CD81} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
 		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
+		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
