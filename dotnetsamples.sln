@@ -161,6 +161,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpContext", "HttpContext"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBody", "HttpContext\ReadRequestBody\ReadRequestBody.csproj", "{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBodyMultipleTimesByBuffering", "HttpContext\ReadRequestBodyMultipleTimesByBuffering\ReadRequestBodyMultipleTimesByBuffering.csproj", "{C235EA30-A316-4452-A723-14D2E4EFEC7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -502,6 +508,7 @@ Global
 		{1F368CCA-CF01-4EEE-9953-D282FA01CD81} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
 		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
 		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
+		{C235EA30-A316-4452-A723-14D2E4EFEC7B} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
