@@ -18,8 +18,10 @@ app.Use(async (HttpContext context, Func<Task> next) =>
         context.Request.Body.Position = 0; //rewind for next middlewares to process
     }
 
-    context.Response.StatusCode = StatusCodes.Status200OK;
     await context.Response.WriteAsync("First time: " + firstTimeRead + "\n Second time: " + secondTimeRead);
+    //if you starts writing response, don't invoke the next middleware because it will throw an error
+    //when trying to add information to the response
+    //only writes to response if your middleware is the terminal middleware
     //await next.Invoke();
 });
 //
