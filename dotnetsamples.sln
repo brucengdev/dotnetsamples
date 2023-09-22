@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBody", "HttpCont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBodyMultipleTimesByBuffering", "HttpContext\ReadRequestBodyMultipleTimesByBuffering\ReadRequestBodyMultipleTimesByBuffering.csproj", "{C235EA30-A316-4452-A723-14D2E4EFEC7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyRequestBody", "HttpContext\ModifyRequestBody\ModifyRequestBody.csproj", "{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,10 @@ Global
 		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C235EA30-A316-4452-A723-14D2E4EFEC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -509,6 +515,7 @@ Global
 		{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41} = {BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}
 		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
 		{C235EA30-A316-4452-A723-14D2E4EFEC7B} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
+		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
