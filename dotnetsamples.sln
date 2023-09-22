@@ -165,6 +165,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBodyMultipleTime
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyRequestBody", "HttpContext\ModifyRequestBody\ModifyRequestBody.csproj", "{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLocalExample", "Async\AsyncLocalExample\AsyncLocalExample.csproj", "{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,10 @@ Global
 		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -516,6 +522,7 @@ Global
 		{95DCE3F7-0198-43C5-8A24-1112C66CCCE6} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
 		{C235EA30-A316-4452-A723-14D2E4EFEC7B} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
 		{F36A0459-CED5-4F35-A4BB-FC79CA1F935A} = {46D939A4-94E2-4361-A237-77E2ED5B9D01}
+		{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81} = {C5737459-15B5-4CE9-BC9C-237311EF20A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
