@@ -175,6 +175,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocalExample", "Async
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStaticExample", "Async\ThreadStaticExample\ThreadStaticExample.csproj", "{4466C098-9446-403B-A0B4-4BB2006FFAB2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing", "Routing", "{03C6BA17-AA4C-4ADE-8C93-F6573A6170F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicRouting", "BasicRouting\BasicRouting.csproj", "{DE95B270-5853-4D1C-9F39-0B67DDE62862}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +481,10 @@ Global
 		{4466C098-9446-403B-A0B4-4BB2006FFAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4466C098-9446-403B-A0B4-4BB2006FFAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4466C098-9446-403B-A0B4-4BB2006FFAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE95B270-5853-4D1C-9F39-0B67DDE62862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE95B270-5853-4D1C-9F39-0B67DDE62862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE95B270-5853-4D1C-9F39-0B67DDE62862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE95B270-5853-4D1C-9F39-0B67DDE62862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -549,6 +557,7 @@ Global
 		{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81} = {C5737459-15B5-4CE9-BC9C-237311EF20A0}
 		{CE1E0E2D-BDBB-43CF-87E9-AD47C055ECA4} = {C5737459-15B5-4CE9-BC9C-237311EF20A0}
 		{4466C098-9446-403B-A0B4-4BB2006FFAB2} = {C5737459-15B5-4CE9-BC9C-237311EF20A0}
+		{DE95B270-5853-4D1C-9F39-0B67DDE62862} = {03C6BA17-AA4C-4ADE-8C93-F6573A6170F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
