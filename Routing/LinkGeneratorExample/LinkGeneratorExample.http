@@ -1,0 +1,6 @@
+@LinkGeneratorExample_HostAddress = http://localhost:5041
+
+GET {{LinkGeneratorExample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
