@@ -1,0 +1,6 @@
+@InspectEndpoint_HostAddress = http://localhost:5065
+
+GET {{InspectEndpoint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
