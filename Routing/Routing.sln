@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InspectEndpoint", "InspectE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkGeneratorExample", "LinkGeneratorExample\LinkGeneratorExample.csproj", "{5FC9F0AC-51BE-4FB4-BAEA-2CEA76B481F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientVsExplicitRouteValues", "AmbientVsExplicitRouteValues\AmbientVsExplicitRouteValues.csproj", "{BC41CF26-D6C1-4C33-B6DE-2C8EA2EF633E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5FC9F0AC-51BE-4FB4-BAEA-2CEA76B481F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FC9F0AC-51BE-4FB4-BAEA-2CEA76B481F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FC9F0AC-51BE-4FB4-BAEA-2CEA76B481F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC41CF26-D6C1-4C33-B6DE-2C8EA2EF633E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC41CF26-D6C1-4C33-B6DE-2C8EA2EF633E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC41CF26-D6C1-4C33-B6DE-2C8EA2EF633E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC41CF26-D6C1-4C33-B6DE-2C8EA2EF633E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
