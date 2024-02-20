@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmbientVsExplicitRouteValue
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalRouteParams", "OptionalRouteParams\OptionalRouteParams.csproj", "{ED6F5440-F1EE-415C-B755-EF71A90E93C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkParserExample", "LinkParserExample\LinkParserExample.csproj", "{BF032317-964F-42D1-ABEA-D4FEED4EEB95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ED6F5440-F1EE-415C-B755-EF71A90E93C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6F5440-F1EE-415C-B755-EF71A90E93C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6F5440-F1EE-415C-B755-EF71A90E93C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF032317-964F-42D1-ABEA-D4FEED4EEB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF032317-964F-42D1-ABEA-D4FEED4EEB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF032317-964F-42D1-ABEA-D4FEED4EEB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF032317-964F-42D1-ABEA-D4FEED4EEB95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
