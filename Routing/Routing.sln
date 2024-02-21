@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkParserExample", "LinkPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterTransformerExample", "ParameterTransformerExample\ParameterTransformerExample.csproj", "{25E14633-57A8-4471-84A5-EE26EB382803}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsWithEndpointRouting", "CorsWithEndpointRouting\CorsWithEndpointRouting.csproj", "{35713B58-0230-4384-9EC4-EE76AE428AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{25E14633-57A8-4471-84A5-EE26EB382803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E14633-57A8-4471-84A5-EE26EB382803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E14633-57A8-4471-84A5-EE26EB382803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
