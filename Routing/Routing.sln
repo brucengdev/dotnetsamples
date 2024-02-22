@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterTransformerExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsWithEndpointRouting", "CorsWithEndpointRouting\CorsWithEndpointRouting.csproj", "{35713B58-0230-4384-9EC4-EE76AE428AC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequireHostExample", "RequireHostExample\RequireHostExample.csproj", "{5AE802C9-04B6-4C64-AE8E-D73858ECE381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35713B58-0230-4384-9EC4-EE76AE428AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE802C9-04B6-4C64-AE8E-D73858ECE381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE802C9-04B6-4C64-AE8E-D73858ECE381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE802C9-04B6-4C64-AE8E-D73858ECE381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE802C9-04B6-4C64-AE8E-D73858ECE381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
