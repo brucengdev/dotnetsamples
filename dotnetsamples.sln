@@ -139,47 +139,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateExamples", "Delegates\DelegateExamples\DelegateExamples.csproj", "{6E67F544-B043-4B4E-B447-F13BF5FDC2C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovarianceAndContraVariance", "CovarianceAndContraVariance\CovarianceAndContraVariance.csproj", "{953A6DDB-6F66-462A-89F7-0742D0B41104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovarianceAndContraVariance", "CovarianceAndContraVariance\CovarianceAndContraVariance.csproj", "{953A6DDB-6F66-462A-89F7-0742D0B41104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateBeginInvoke", "Delegates\DelegateBeginInvoke\DelegateBeginInvoke.csproj", "{2CB53B8A-2A82-46F3-9D37-95415150F85A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegateBeginInvoke", "Delegates\DelegateBeginInvoke\DelegateBeginInvoke.csproj", "{2CB53B8A-2A82-46F3-9D37-95415150F85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpLogging", "Logging\HttpLogging\HttpLogging.csproj", "{4A6744A3-6E75-4E7E-8286-D43B7B489552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpLogging", "Logging\HttpLogging\HttpLogging.csproj", "{4A6744A3-6E75-4E7E-8286-D43B7B489552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3CLogging", "Logging\W3CLogging\W3CLogging.csproj", "{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W3CLogging", "Logging\W3CLogging\W3CLogging.csproj", "{51040F3E-85D6-4FCC-8F32-810D9FCFCF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashCodeAndDistinct", "HashCodeAndDistinct\HashCodeAndDistinct.csproj", "{6024AE4D-5B5C-4FD7-94E0-73438F66F6FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashCodeAndDistinct", "HashCodeAndDistinct\HashCodeAndDistinct.csproj", "{6024AE4D-5B5C-4FD7-94E0-73438F66F6FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAccessingPrivateMethod", "TestAccessingPrivateMethod\TestAccessingPrivateMethod.csproj", "{D8422D34-2CAA-4F50-B0DC-EF2D52016EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAccessingPrivateMethod", "TestAccessingPrivateMethod\TestAccessingPrivateMethod.csproj", "{D8422D34-2CAA-4F50-B0DC-EF2D52016EB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthChecks", "{BB9901BB-FA92-44B5-8D42-BF4FCFF0518A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Healthcheck", "HealthChecks\Healthcheck\Healthcheck.csproj", "{1F368CCA-CF01-4EEE-9953-D282FA01CD81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Healthcheck", "HealthChecks\Healthcheck\Healthcheck.csproj", "{1F368CCA-CF01-4EEE-9953-D282FA01CD81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivenessAndReadiness", "HealthChecks\LivenessAndReadiness\LivenessAndReadiness.csproj", "{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LivenessAndReadiness", "HealthChecks\LivenessAndReadiness\LivenessAndReadiness.csproj", "{994B7CC3-732F-4C3A-BEEE-38BF37EDDC41}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpContext", "HttpContext", "{46D939A4-94E2-4361-A237-77E2ED5B9D01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBody", "HttpContext\ReadRequestBody\ReadRequestBody.csproj", "{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadRequestBody", "HttpContext\ReadRequestBody\ReadRequestBody.csproj", "{95DCE3F7-0198-43C5-8A24-1112C66CCCE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadRequestBodyMultipleTimesByBuffering", "HttpContext\ReadRequestBodyMultipleTimesByBuffering\ReadRequestBodyMultipleTimesByBuffering.csproj", "{C235EA30-A316-4452-A723-14D2E4EFEC7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadRequestBodyMultipleTimesByBuffering", "HttpContext\ReadRequestBodyMultipleTimesByBuffering\ReadRequestBodyMultipleTimesByBuffering.csproj", "{C235EA30-A316-4452-A723-14D2E4EFEC7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifyRequestBody", "HttpContext\ModifyRequestBody\ModifyRequestBody.csproj", "{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModifyRequestBody", "HttpContext\ModifyRequestBody\ModifyRequestBody.csproj", "{F36A0459-CED5-4F35-A4BB-FC79CA1F935A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncLocalExample", "Async\AsyncLocalExample\AsyncLocalExample.csproj", "{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncLocalExample", "Async\AsyncLocalExample\AsyncLocalExample.csproj", "{EF9EAE4B-E8D2-4491-9C17-8891AD94BE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiExperiment", "WebApiExperiment\WebApiExperiment.csproj", "{F40EEFB0-0206-40C1-9C68-3BB96C225E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiExperiment", "WebApiExperiment\WebApiExperiment.csproj", "{F40EEFB0-0206-40C1-9C68-3BB96C225E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiment", "Experiment\Experiment.csproj", "{B967C258-241A-4E8F-B029-5923457622E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Experiment", "Experiment\Experiment.csproj", "{B967C258-241A-4E8F-B029-5923457622E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadLocalExample", "Async\ThreadLocalExample\ThreadLocalExample.csproj", "{CE1E0E2D-BDBB-43CF-87E9-AD47C055ECA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadLocalExample", "Async\ThreadLocalExample\ThreadLocalExample.csproj", "{CE1E0E2D-BDBB-43CF-87E9-AD47C055ECA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStaticExample", "Async\ThreadStaticExample\ThreadStaticExample.csproj", "{4466C098-9446-403B-A0B4-4BB2006FFAB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStaticExample", "Async\ThreadStaticExample\ThreadStaticExample.csproj", "{4466C098-9446-403B-A0B4-4BB2006FFAB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routing", "Routing", "{03C6BA17-AA4C-4ADE-8C93-F6573A6170F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicRouting", "BasicRouting\BasicRouting.csproj", "{DE95B270-5853-4D1C-9F39-0B67DDE62862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicRouting", "BasicRouting\BasicRouting.csproj", "{DE95B270-5853-4D1C-9F39-0B67DDE62862}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecuteInBatches", "ExecuteInBatches\ExecuteInBatches.csproj", "{C3B4543B-D902-46A1-A537-224F088256CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteGroups", "Routing\RouteGroups\RouteGroups.csproj", "{7540B2CD-0978-49E6-9117-5A4949A5FF8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -491,6 +493,10 @@ Global
 		{C3B4543B-D902-46A1-A537-224F088256CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3B4543B-D902-46A1-A537-224F088256CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3B4543B-D902-46A1-A537-224F088256CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7540B2CD-0978-49E6-9117-5A4949A5FF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7540B2CD-0978-49E6-9117-5A4949A5FF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7540B2CD-0978-49E6-9117-5A4949A5FF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7540B2CD-0978-49E6-9117-5A4949A5FF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -564,6 +570,7 @@ Global
 		{CE1E0E2D-BDBB-43CF-87E9-AD47C055ECA4} = {C5737459-15B5-4CE9-BC9C-237311EF20A0}
 		{4466C098-9446-403B-A0B4-4BB2006FFAB2} = {C5737459-15B5-4CE9-BC9C-237311EF20A0}
 		{DE95B270-5853-4D1C-9F39-0B67DDE62862} = {03C6BA17-AA4C-4ADE-8C93-F6573A6170F9}
+		{7540B2CD-0978-49E6-9117-5A4949A5FF8D} = {03C6BA17-AA4C-4ADE-8C93-F6573A6170F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {62EC4432-0659-4624-8736-EBAFCF2DEEA8}
